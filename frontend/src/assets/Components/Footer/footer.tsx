@@ -80,7 +80,7 @@ function Footer() {
                 </div>
 
                 <div id='uniLogoFooter'>
-                    <a href="https://unisagrado.edu.br/">
+                    <a href="https://unisagrado.edu.br/" target={'_blank'}>
                         <img src={LogoUnisagrado} alt="" />
                     </a>
 
