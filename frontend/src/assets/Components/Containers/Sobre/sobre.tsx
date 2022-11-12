@@ -1,5 +1,8 @@
 import './sobre.css'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Lixo1 from '../../../images/lixo1.png'
 import Lixo1Mobile from '../../../images/lixo1Mobile.png'
 import Lixo2 from '../../../images/lixo2.png'
@@ -9,7 +12,7 @@ import Lixo3Mobile from '../../../images/lixo3Mobile.png'
 
 
 function Sobre() {
-
+    AOS.init();
     return (
         <>
             <section id='sobre' className='flex font column'>
@@ -19,9 +22,11 @@ function Sobre() {
                 </div>
 
                 <div id='imgSobre'>
-                    <img className='lixoDesktop' src={Lixo1} alt="" />
-                    <img className='lixoDesktop' src={Lixo2} alt="" />
-                    <img className='lixoDesktop' src={Lixo3} alt="" />
+                    <img data-aos="fade-right" className='lixoDesktop' src={Lixo1} alt="" />
+
+                    <img data-aos="fade-left" className='lixoDesktop' src={Lixo2} alt="" />
+
+                    <img data-aos="fade-right" className='lixoDesktop' src={Lixo3} alt="" />
                 </div>
 
             </section>
