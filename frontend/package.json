@@ -11,7 +11,7 @@
   "dependencies": {
     "@mdi/font": "^7.0.96",
     "@remix-run/router": "1.0.1",
-    "@types/aos": "^3.0.4",
+    "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.4.3",
