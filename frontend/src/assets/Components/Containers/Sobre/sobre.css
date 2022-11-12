@@ -43,9 +43,11 @@ section {
   #sobre {
     margin-top: 60px;
   }
-  #sobre .slider-wrapper {
+  #sobre #carrossel {
+    display: block;
     margin-top: 30px;
     width: 80vw;
+    align-self: center;
   }
   #sobre #txtSobre span {
     color: #75BF7A;
