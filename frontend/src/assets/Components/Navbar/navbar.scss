@@ -1,0 +1,198 @@
+@import '../../../index.scss';
+
+
+#navbar
+{
+
+
+    @include all
+    {
+
+        height: 75px;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+
+        #regerLogo
+        {
+            width: 100%;
+            max-width: 255px;
+            height: auto;
+            margin: auto auto;
+            margin-left: 20px;
+        }
+
+        #navItems #burguer
+        {
+            width: 34px;
+            height: 34px;
+            margin: auto 2vw;
+            margin-top: 20px;
+        }
+
+        #unisagradoLogo
+        {
+            display: none;
+            width: 100%;
+            max-width: 200px;
+            margin: auto auto;
+            height: auto;
+        }
+
+        nav
+        {
+            > a
+            {
+                display: none;
+            }
+        }
+
+        #navItems.aberto
+        {
+
+            > nav
+            {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                background-color: #F9F9F9;
+                display: flex;
+                flex-direction: column;
+
+                #burguer
+                {
+                    margin-left: 200px;
+
+                }
+
+                > a
+                {
+                    text-align: right;
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: black;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    display: block;
+                }
+
+            }
+
+            #unisagradoLogo
+            {
+                display: block;
+            }
+        }
+
+    }
+
+    @include md
+    {
+        background-color: #FFFFFF;
+        height: 125px;
+        border-bottom: .5px solid #ECECEC;
+
+        #regerLogo
+        {
+            max-width: 150px;
+        }
+
+        #navItems #burguer
+        {
+            display: none;
+        }
+
+        nav
+        {
+            margin-right: 40px;
+            display: flex;
+
+            > a
+            {
+                font-size: 13px;
+                text-decoration: none;
+                color: black;
+                display: block;
+                white-space: nowrap;
+                margin: auto 10px;
+            }
+        }
+
+        #unisagradoLogo
+        {
+            display: block;
+            width: 100%;
+            max-width: 95px;
+            max-height: auto;
+            margin-left: 13px;
+        }
+
+    }
+
+    @include lg
+    {
+        nav
+        {
+            > a
+            {
+                font-size: 15px;
+                margin: auto 10px;
+            }
+
+            > img
+            {
+                max-width: 150px;
+            }
+        }
+
+        #unisagradoLogo
+        {
+            display: block;
+            width: 100%;
+            max-width: 175px;
+            margin-left: 15px
+        }
+
+        #regerLogo
+        {
+            max-width: none;
+            width: 175px;
+            ;
+        }
+
+
+    }
+
+    @include xl
+    {
+        #regerLogo
+        {
+            max-width: none;
+            width: 200px;
+        }
+    }
+
+    @include xxl
+    {
+
+
+        nav
+        {
+            > a
+            {
+                font-size: 21px;
+            }
+        }
+
+        #unisagradoLogo
+        {
+            margin-left: 30px;
+        }
+
+        #regerLogo
+        {
+            width: 300px;
+
+        }
+    }
+}

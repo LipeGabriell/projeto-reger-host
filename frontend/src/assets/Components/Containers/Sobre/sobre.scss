@@ -1,0 +1,98 @@
+@import '../../../../index.scss';
+
+#sobre
+{
+
+    @include all
+    {
+        margin-top: 60px;
+
+        #txtSobre
+        {
+            span
+            {
+                color: #75BF7A;
+                font-weight: 100;
+            }
+
+            h1
+            {
+                font-weight: 900;
+                text-align: center;
+            }
+
+            p
+            {
+                color: #9E9DA2;
+                text-align: center;
+                padding: 0px 3vw;
+            }
+        }
+
+        #imgSobre
+        {
+            display: flex;
+            flex-direction: column;
+
+            img
+            {
+                width: 100%;
+                max-width: 400px;
+                margin-top: 30px;
+                padding: 0 3vw;
+                align-self: center;
+            }
+
+
+        }
+
+        .lixoDesktop
+        {
+            display: none;
+        }
+    }
+
+    @include md
+    {
+
+        #txtSobre
+        {
+            h1
+            {
+                font-size: 24px;
+            }
+
+        }
+
+        .lixoDesktop
+        {
+            display: block;
+        }
+
+        .lixoMobile
+        {
+            display: none;
+        }
+
+        #imgSobre
+        {
+            display: flex;
+            flex-direction: column;
+
+            img
+            {
+                width: 100%;
+                max-width: 70vw;
+                padding: 0px 3vw;
+                margin-top: 50px;
+
+                &:nth-child(2)
+                {
+                    align-self: flex-end;
+                }
+            }
+
+
+        }
+    }
+}
