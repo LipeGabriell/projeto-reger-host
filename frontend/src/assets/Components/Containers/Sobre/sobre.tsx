@@ -32,7 +32,7 @@ function Sobre() {
                 </div>
 
                 <div id='carrossel'>
-                    <Carousel showStatus={false} showArrows={true} autoPlay={true} infiniteLoop={true}>
+                    <Carousel showStatus={false} showArrows={true} autoPlay={true} infiniteLoop={true} transitionTime={400}>
                         <div>
                             <img src={Lixo1Mobile} />
                             {/* <p className="textoCarrossel font">Imagem 1</p> */}
