@@ -43,6 +43,10 @@ section {
   #sobre {
     margin-top: 60px;
   }
+  #sobre .slider-wrapper {
+    margin-top: 30px;
+    width: 80vw;
+  }
   #sobre #txtSobre span {
     color: #75BF7A;
     font-weight: 100;
@@ -72,14 +76,14 @@ section {
   }
 }
 @media (min-width: 768px) {
+  #sobre #carrossel {
+    display: none;
+  }
   #sobre #txtSobre h1 {
     font-size: 24px;
   }
   #sobre .lixoDesktop {
     display: block;
-  }
-  #sobre .lixoMobile {
-    display: none;
   }
   #sobre #imgSobre {
     display: flex;

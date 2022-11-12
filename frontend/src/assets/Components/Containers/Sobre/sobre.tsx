@@ -2,6 +2,8 @@ import './sobre.css'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 import Lixo1 from '../../../images/lixo1.png'
 import Lixo1Mobile from '../../../images/lixo1Mobile.png'
@@ -28,6 +30,21 @@ function Sobre() {
 
                     <img data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true" className='lixoDesktop' src={Lixo3} alt="" />
                 </div>
+
+                <Carousel>
+                    <div>
+                        <img src={Lixo1Mobile} />
+                        {/* <p className="textoCarrossel font">Imagem 1</p> */}
+                    </div>
+                    <div>
+                        <img src={Lixo2Mobile} />
+                        {/* <p className="textoCarrossel font">Imagem 2</p> */}
+                    </div>
+                    <div>
+                        <img src={Lixo3Mobile} />
+                        {/* <p className="textoCarrossel font">imagem 3</p> */}
+                    </div>
+                </Carousel>
 
             </section>
         </>

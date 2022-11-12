@@ -3,9 +3,19 @@
 #sobre
 {
 
+
     @include all
     {
         margin-top: 60px;
+
+        // .textoCarrossel
+        // {}
+
+        .slider-wrapper
+        {
+            margin-top: 30px;
+            width: 80vw;
+        }
 
         #txtSobre
         {
@@ -55,6 +65,11 @@
     @include md
     {
 
+        #carrossel
+        {
+            display: none;
+        }
+
         #txtSobre
         {
             h1
@@ -67,11 +82,6 @@
         .lixoDesktop
         {
             display: block;
-        }
-
-        .lixoMobile
-        {
-            display: none;
         }
 
         #imgSobre
