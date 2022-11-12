@@ -31,7 +31,7 @@ function Sobre() {
                     <img data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true" className='lixoDesktop' src={Lixo3} alt="" />
                 </div>
 
-                <Carousel>
+                <Carousel showStatus={false}>
                     <div>
                         <img src={Lixo1Mobile} />
                         {/* <p className="textoCarrossel font">Imagem 1</p> */}
