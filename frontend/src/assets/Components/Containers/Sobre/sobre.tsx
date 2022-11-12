@@ -22,11 +22,11 @@ function Sobre() {
                 </div>
 
                 <div id='imgSobre'>
-                    <img data-aos="fade-right" className='lixoDesktop' src={Lixo1} alt="" />
+                    <img data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true" className='lixoDesktop' src={Lixo1} alt="" />
 
-                    <img data-aos="fade-left" className='lixoDesktop' src={Lixo2} alt="" />
+                    <img data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true" className='lixoDesktop' src={Lixo2} alt="" />
 
-                    <img data-aos="fade-right" className='lixoDesktop' src={Lixo3} alt="" />
+                    <img data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true" className='lixoDesktop' src={Lixo3} alt="" />
                 </div>
 
             </section>
