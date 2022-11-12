@@ -32,42 +32,42 @@ function Sobre() {
                 </div>
 
                 <div id='carrossel'>
-                    <Carousel showStatus={false} showArrows={true} autoPlay={true} infiniteLoop={true} transitionTime={400}>
+                    <Carousel showStatus={false} showArrows={true} autoPlay={true} infiniteLoop={true} transitionTime={400} stopOnHover={true} >
                         <div>
                             <img src={Lixo1Mobile} />
-                            {/* <p className="textoCarrossel font">Imagem 1</p> */}
+                            <p className="legend font">Imagem 1</p>
                         </div>
                         <div>
                             <img src={Lixo2Mobile} />
-                            {/* <p className="textoCarrossel font">Imagem 2</p> */}
+                            <p className="legend font">Imagem 2</p>
                         </div>
                         <div>
                             <img src={Lixo3Mobile} />
-                            {/* <p className="textoCarrossel font">imagem 3</p> */}
+                            <p className="legend font">imagem 3</p>
                         </div>
                         <div>
                             <img src={Lixo1Mobile} />
-                            {/* <p className="textoCarrossel font">Imagem 1</p> */}
+                            <p className="legend font">Imagem 1</p>
                         </div>
                         <div>
                             <img src={Lixo2Mobile} />
-                            {/* <p className="textoCarrossel font">Imagem 2</p> */}
+                            {/* <p className="legend font">Imagem 2</p> */}
                         </div>
                         <div>
                             <img src={Lixo3Mobile} />
-                            {/* <p className="textoCarrossel font">imagem 3</p> */}
+                            {/* <p className="legend font">imagem 3</p> */}
                         </div>
                         <div>
                             <img src={Lixo1Mobile} />
-                            {/* <p className="textoCarrossel font">Imagem 1</p> */}
+                            <p className="legend font">Imagem 1</p>
                         </div>
                         <div>
                             <img src={Lixo2Mobile} />
-                            {/* <p className="textoCarrossel font">Imagem 2</p> */}
+                            {/* <p className="legend font">Imagem 2</p> */}
                         </div>
                         <div>
                             <img src={Lixo3Mobile} />
-                            {/* <p className="textoCarrossel font">imagem 3</p> */}
+                            {/* <p className="legend font">imagem 3</p> */}
                         </div>
                     </Carousel>
                 </div>
