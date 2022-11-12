@@ -1,14 +1,20 @@
 import './sobre.css'
-import Aos from 'aos';
+//libs
+import React, { useEffect } from "react";
+import AOS from 'aos';
 import 'aos/dist/aos.css';
+//imgs
 import Lixo1 from '../../../images/lixo1.png'
 import Lixo1Mobile from '../../../images/lixo1Mobile.png'
 import Lixo2 from '../../../images/lixo2.png'
 import Lixo2Mobile from '../../../images/lixo2Mobile.png'
 import Lixo3 from '../../../images/lixo3.png'
 import Lixo3Mobile from '../../../images/lixo3Mobile.png'
+//func
 function Sobre() {
-    Aos.init();
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <>
             <section id='sobre' className='flex font column'>
