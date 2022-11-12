@@ -1,5 +1,4 @@
 import './sobre.css'
-import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Lixo1 from '../../../images/lixo1.png'
@@ -10,9 +9,7 @@ import Lixo3 from '../../../images/lixo3.png'
 import Lixo3Mobile from '../../../images/lixo3Mobile.png'
 
 function Sobre() {
-    useEffect(() => {
-        AOS.init();
-    }, [])
+    AOS.init();
     return (
         <>
             <section id='sobre' className='flex font column'>
@@ -27,10 +24,11 @@ function Sobre() {
                 </div>
 
                 <div id='imgSobre'>
-                    <img data-aos="fade-left" className='lixoDesktop' src={Lixo1} alt="" />
+                    <img data-aos="fade-right" className='lixoDesktop' src={Lixo1} alt="" />
                     <img data-aos="fade-left" className='lixoDesktop' src={Lixo2} alt="" />
-                    <img data-aos="fade-left" className='lixoDesktop' src={Lixo3} alt="" />
+                    <img data-aos="fade-right" className='lixoDesktop' src={Lixo3} alt="" />
                 </div>
+
             </section>
         </>
     )
