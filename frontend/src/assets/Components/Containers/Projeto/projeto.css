@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
 body {
   background-color: #F9F9F9;
+  overflow-x: hidden;
 }
 
 * {
@@ -68,8 +69,7 @@ section {
   #projeto #item1Projeto,
 #projeto #item2Projeto,
 #projeto #item3Projeto,
-#projeto #item4Projeto,
-#projeto #item1Projeto {
+#projeto #item4Projeto {
     margin-top: 30px;
     width: 100%;
     max-width: 90vw;
@@ -79,16 +79,14 @@ section {
   #projeto #item1Projeto > h2,
 #projeto #item2Projeto > h2,
 #projeto #item3Projeto > h2,
-#projeto #item4Projeto > h2,
-#projeto #item1Projeto > h2 {
+#projeto #item4Projeto > h2 {
     font-size: 20px;
     font-weight: 100;
   }
   #projeto #item1Projeto > p,
 #projeto #item2Projeto > p,
 #projeto #item3Projeto > p,
-#projeto #item4Projeto > p,
-#projeto #item1Projeto > p {
+#projeto #item4Projeto > p {
     font-size: 16px;
     font-weight: 100;
     color: #9E9DA2;
@@ -147,6 +145,7 @@ section {
 #projeto #item3Projeto,
 #projeto #item4Projeto,
 #projeto #item1Projeto {
+    padding-top: 35px;
     margin: 0px 10vw;
     width: 100%;
     max-width: 20vw;
