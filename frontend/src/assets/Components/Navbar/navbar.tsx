@@ -22,11 +22,11 @@ function Navbar() {
                 <div id='navItems' className='flex'>
                     <nav>
                         <img id='burguer' src={BurguerMenu} alt="Menu" onClick={interactMenu} />
-                        <a href="">O Projeto</a>
-                        <a href="">O que fazemos</a>
-                        <a href="">Como fazemos</a>
-                        <a href="">Crescemos</a>
-                        <a href="">Onde Estamos</a>
+                        <a href="#Projeto">O Projeto</a>
+                        <a href="#Projeto">O que fazemos</a>
+                        <a href="#Projeto">Como fazemos</a>
+                        <a href="#Projeto">Crescemos</a>
+                        <a href="#Projeto">Onde Estamos</a>
                         <a href="">Dicas</a>
                         <a href="https://unisagrado.edu.br/" target={'_blank'}>
                             <img id='unisagradoLogo' src={UnisagradoLogo} alt="Logo Unisagrado" />

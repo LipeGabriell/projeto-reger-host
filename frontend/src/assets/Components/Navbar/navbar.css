@@ -43,7 +43,8 @@ section {
   #navbar {
     height: 75px;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 100;
   }
   #navbar #regerLogo {

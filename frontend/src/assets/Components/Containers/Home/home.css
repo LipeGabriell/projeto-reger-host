@@ -92,6 +92,10 @@ section {
     width: 100%;
     padding: 0px 3vw;
   }
+  #homeSection #Projeto {
+    position: absolute;
+    bottom: 125px;
+  }
 }
 @media (min-width: 768px) {
   #homeSection #inicioHome {

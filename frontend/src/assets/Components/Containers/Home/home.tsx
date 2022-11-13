@@ -16,6 +16,7 @@ function Home() {
                 </div>
                 <div id='folhasDiv'>
                     <div id='folhasHome'>
+                        <div id='Projeto'></div>
                     </div>
                 </div>
             </section>
