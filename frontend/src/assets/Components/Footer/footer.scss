@@ -4,6 +4,7 @@ footer
 {
     border: #ECECEC .5px solid;
     width: 100vw;
+    z-index: 10000;
 
     @include all
     {

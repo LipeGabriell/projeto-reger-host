@@ -14,6 +14,24 @@ function Navbar() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    var altura = document.body.scrollHeight - window.innerHeight
+    const navbar = document.getElementById('navItems');
+    console.log(navbar)
+
+    // window.addEventListener("scroll", () => {
+    //     if (!navbar) return
+    //     // console.log("a altura é " + altura)
+    //     var y = window.scrollY;
+    //     // console.log("o Y é " + y)
+    //     if (y >= 200) {
+    //         navbar.classList.add('tirar');
+    //         return;
+    //     }
+    //     else {
+    //         navbar.classList.remove('tirar');
+    //     }
+    // });
+
     return (
         <>
             <div id='navbar' className="flex space-betwen font">

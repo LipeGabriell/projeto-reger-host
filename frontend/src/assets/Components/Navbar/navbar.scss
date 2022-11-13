@@ -8,6 +8,11 @@
     @include all
     {
 
+        .tirar
+        {
+            display: none !important;
+        }
+
         height: 75px;
         width: 100%;
         position: sticky;

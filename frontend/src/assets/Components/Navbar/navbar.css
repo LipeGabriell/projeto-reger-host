@@ -47,6 +47,9 @@ section {
     top: 0;
     z-index: 100;
   }
+  #navbar .tirar {
+    display: none !important;
+  }
   #navbar #regerLogo {
     width: 100%;
     max-width: 255px;

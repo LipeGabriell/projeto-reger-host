@@ -8,11 +8,15 @@ import Sobre from "../../assets/Components/Containers/Sobre/sobre"
 function Landing() {
     return (
         <>
-            <Navbar />
+            {/* <div className="page"> // height: 100vh */}
+            <Navbar /> {/* // height auto */}
+            {/* <div className="content"> // height: 100% */}
             <Home />
             <Projeto />
             <Sobre />
             <Footer />
+            {/* </div> */}
+            {/* </div> */}
         </>
     )
 }
