@@ -10,11 +10,15 @@ function Navbar() {
         console.log('teste')
     }
 
+    function subirTela() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <>
             <div id='navbar' className="flex space-betwen font">
 
-                <img id='regerLogo' src={RegerLogo} alt="Logo Projeto Reger" />
+                <img id='regerLogo' src={RegerLogo} alt="Logo Projeto Reger" onClick={subirTela} />
                 <div id='navItems' className='flex'>
                     <nav>
                         <img id='burguer' src={BurguerMenu} alt="Menu" onClick={interactMenu} />

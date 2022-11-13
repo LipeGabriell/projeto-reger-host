@@ -46,8 +46,11 @@ section {
   #sobre #carrossel {
     display: block;
     margin-top: 30px;
-    width: 80vw;
+    width: 90vw;
     align-self: center;
+  }
+  #sobre #carrossel .carousel {
+    border-radius: 10px;
   }
   #sobre #txtSobre span {
     color: #75BF7A;

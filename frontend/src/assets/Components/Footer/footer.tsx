@@ -8,11 +8,16 @@ import Github from '../../images/social/github.svg'
 import Linkedin from '../../images/social/linkedin.png'
 
 function Footer() {
+
+    function subirTela() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <>
             <footer className='font'>
                 <div id='regerLogo'>
-                    <img src={RegerLogo} alt="Logo Projeto Reger" />
+                    <img src={RegerLogo} alt="Logo Projeto Reger" onClick={subirTela} />
                 </div>
 
                 <div id='redesFooter'>
