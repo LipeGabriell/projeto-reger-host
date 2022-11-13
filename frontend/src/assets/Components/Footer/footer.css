@@ -42,7 +42,8 @@ section {
 footer {
   border: #ECECEC 0.5px solid;
   width: 100vw;
-  z-index: 10000;
+  z-index: 3;
+  position: relative;
 }
 @media (min-width: 0px) {
   footer {

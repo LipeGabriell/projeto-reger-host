@@ -1,3 +1,4 @@
+import './Landing.css'
 
 import Navbar from "../../assets/Components/Navbar/navbar"
 import Home from '../../assets/Components/Containers/Home/home'
@@ -8,15 +9,15 @@ import Sobre from "../../assets/Components/Containers/Sobre/sobre"
 function Landing() {
     return (
         <>
-            {/* <div className="page"> // height: 100vh */}
-            <Navbar /> {/* // height auto */}
-            {/* <div className="content"> // height: 100% */}
-            <Home />
-            <Projeto />
-            <Sobre />
-            <Footer />
-            {/* </div> */}
-            {/* </div> */}
+            <div className="page">
+                <Navbar />
+                <div className="content">
+                    <Home />
+                    <Projeto />
+                    <Sobre />
+                    <Footer />
+                </div>
+            </div>
         </>
     )
 }
