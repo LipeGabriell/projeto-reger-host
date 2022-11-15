@@ -40,7 +40,7 @@ section {
 }
 
 #navbar #navItems > nav a {
-  z-index: 1000;
+  z-index: 4;
 }
 @media (min-width: 0px) {
   #navbar {
