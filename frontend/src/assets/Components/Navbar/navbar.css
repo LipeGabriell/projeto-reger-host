@@ -39,7 +39,7 @@ section {
   font-family: "Gafata", sans-serif;
 }
 
-#navbar #navItems > nav > a {
+#navbar #navItems > nav a {
   z-index: 1000;
 }
 @media (min-width: 0px) {
