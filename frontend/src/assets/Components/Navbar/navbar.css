@@ -39,6 +39,9 @@ section {
   font-family: "Gafata", sans-serif;
 }
 
+#navbar #navItems > nav > a {
+  z-index: 1000;
+}
 @media (min-width: 0px) {
   #navbar {
     height: 75px;

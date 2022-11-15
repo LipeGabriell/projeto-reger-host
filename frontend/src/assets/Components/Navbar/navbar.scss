@@ -4,6 +4,10 @@
 #navbar
 {
 
+    #navItems > nav > a
+    {
+        z-index: 1000;
+    }
 
     @include all
     {
