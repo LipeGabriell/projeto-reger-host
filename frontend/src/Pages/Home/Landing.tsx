@@ -7,6 +7,8 @@ import Footer from "../../assets/Components/Footer/footer"
 import Sobre from "../../assets/Components/Containers/Sobre/sobre"
 
 function Landing() {
+
+
     return (
         <>
             <div className="page">

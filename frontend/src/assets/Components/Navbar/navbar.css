@@ -85,6 +85,8 @@ section {
     top: 0;
     right: 0;
     z-index: 5;
+    border-left: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
   }
   #navbar #navItems.aberto > nav {
     background-color: #F9F9F9;

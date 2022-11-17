@@ -15,7 +15,7 @@ function Footer() {
 
     return (
         <>
-            <footer className='font'>
+            <footer id='footer' className='font'>
                 <div id='regerLogo'>
                     <img src={RegerLogo} alt="Logo Projeto Reger" onClick={subirTela} />
                 </div>
