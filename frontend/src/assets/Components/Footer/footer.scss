@@ -5,8 +5,9 @@ footer
     background-color: #f9f9f9;
     border: #ECECEC .5px solid;
     width: 100vw;
+    position: absolute;
     z-index: 3;
-    position: relative;
+
 
     @include all
     {
