@@ -29,7 +29,7 @@ function Navbar() {
                         <a href="#Projeto">Como fazemos</a>
                         <a href="#Projeto">Crescemos</a>
                         <a href="#Projeto">Onde Estamos</a>
-                        <a href="">Dicas</a>
+                        <a href="#sobre">Dicas</a>
                         <a href="https://unisagrado.edu.br/" target={'_blank'}>
                             <img id='unisagradoLogo' src={UnisagradoLogo} alt="Logo Unisagrado" />
                         </a>
