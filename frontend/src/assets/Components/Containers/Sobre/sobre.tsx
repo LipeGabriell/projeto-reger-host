@@ -20,7 +20,7 @@ function Sobre() {
             <section id='sobre' className='flex font column'>
                 <div id='txtSobre'>
                     <h1><span>SOBRE</span> NÓS</h1>
-                    <p>O Centro Universitário Sagrado Coração tem uma preocupação constante com os resíduos produzidos em todas as suas atividades. Essa preocupação vem de uma necessidade não só da instituição, mas um cuidado com os impactos causados no meio ambiente e com os efeitos a curto e longo prazo. O projeto Reger é um programa realizado pela Unisagrado afim de tomar medidas para reduzir o consumo de resíduos, fazendo com que diminua a quantidade os rejeitos produzidos no campus, incentivando o descarte correto.</p>
+                    <p>O Centro Universitário Sagrado Coração tem uma preocupação constante com os resíduos produzidos em todas as suas atividades. Essa preocupação vem de uma necessidade não só da instituição, mas um cuidado com os impactos causados no meio ambiente e com os efeitos a curto e longo prazo.</p>
                 </div>
 
                 <div id='imgSobre'>

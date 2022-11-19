@@ -62,7 +62,7 @@ section {
     font-size: 34px;
     font-weight: 300;
   }
-  #homeSection #inicioHome h2 {
+  #homeSection #inicioHome p {
     font-size: 18px;
     font-weight: 100;
     color: #9E9DA2;
@@ -133,6 +133,6 @@ section {
 }
 @media (min-width: 1200px) {
   #homeSection #inicioHome img {
-    max-width: 720px;
+    max-width: 680px;
   }
 }

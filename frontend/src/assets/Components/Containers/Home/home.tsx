@@ -10,7 +10,7 @@ function Home() {
                     <img id='trees' src={Trees} alt="" />
                     <div className='flex column'>
                         <h1 className='font'>Projeto Reger</h1>
-                        <h2 className='font'>O Centro Universitário Sagrado Coração tem uma preocupação constante com os resíduos produzidos em todas as suas atividades...</h2>
+                        <p className='font'>Juntos para um mundo mais sustentável!</p>
                         <a href=""><span>Sobre</span> nós</a>
                     </div>
                 </div>

@@ -23,9 +23,12 @@ function Footer() {
                 <div id='redesFooter'>
                     <h3>Redes sociais:</h3>
                     <div>
-                        <img src={Facebook} alt="" />
-                        {/* <img src={Twitter} alt="" /> */}
-                        <img src={Instagram} alt="" />
+                        <a href='https://pt-br.facebook.com/UNISAGRADOBauru/' target={'_blank'}>
+                            <img src={Facebook} alt="" />
+                        </a>
+                        <a href='https://www.instagram.com/unisagrado_oficial/' target={'_blank'}>
+                            <img src={Instagram} alt="" />
+                        </a>
                     </div>
                 </div>
 

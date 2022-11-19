@@ -61,6 +61,7 @@ section {
     height: auto;
     margin: auto auto;
     margin-left: 20px;
+    cursor: pointer;
   }
   #navbar #navItems #burguer {
     width: 34px;
