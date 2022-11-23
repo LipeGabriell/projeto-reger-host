@@ -76,7 +76,7 @@ iframe {
     color: #75BF7A;
   }
   #Dicas #items1,
-#Dicas #items2 {
+  #Dicas #items2 {
     flex-direction: column;
   }
   #Dicas #item1Dicas,
