@@ -39,9 +39,25 @@ section {
   font-family: "Gafata", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 0px) {
+  #Sobre {
+    position: relative;
+  }
+}
+@media (min-width: 768px) {
+  #Sobre {
+    position: absolute;
+    bottom: -460px;
+  }
+}
+
 @media (min-width: 0px) {
   #sobre {
-    margin-top: 60px;
+    margin-top: 120px;
   }
   #sobre #carrossel {
     display: block;
@@ -99,8 +115,5 @@ section {
     max-width: 70vw;
     padding: 0px 3vw;
     margin-top: 50px;
-  }
-  #sobre #imgSobre img:nth-child(2) {
-    align-self: flex-end;
   }
 }

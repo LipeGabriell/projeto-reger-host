@@ -1,15 +1,27 @@
 @import '../../../../index.scss';
 
+#Sobre
+{
+    @include all
+    {
+        position: relative;
+    }
+
+    @include md
+    {
+
+        position: absolute;
+        bottom: -460px;
+    }
+}
+
 #sobre
 {
 
 
     @include all
     {
-        margin-top: 60px;
-
-        // .textoCarrossel
-        // {}
+        margin-top: 120px;
 
 
         #carrossel
@@ -103,11 +115,6 @@
                 max-width: 70vw;
                 padding: 0px 3vw;
                 margin-top: 50px;
-
-                &:nth-child(2)
-                {
-                    align-self: flex-end;
-                }
             }
 
 

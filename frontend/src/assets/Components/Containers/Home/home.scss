@@ -1,5 +1,21 @@
 @import '../../../../index.scss';
 
+#Projeto
+{
+    @include all
+    {
+        position: absolute;
+        bottom: 125px;
+    }
+
+    @include md
+    {
+
+        position: absolute;
+        bottom: 125px;
+    }
+}
+
 #homeSection
 {
 
@@ -9,7 +25,7 @@
 
         #inicioHome
         {
-            margin-top: 125px;
+            margin-top: 25px;
             flex-direction: column;
             width: 100%;
             text-align: center;
@@ -26,13 +42,15 @@
             {
                 width: 100%;
                 max-width: 450px;
+                padding-bottom: 10px;
             }
 
             h1
             {
-                margin-top: 65px;
+                margin-top: 20px;
                 font-size: 34px;
                 font-weight: 300;
+                padding-top: 100px;
             }
 
             h2
@@ -74,12 +92,12 @@
             padding: 0px 3vw;
         }
 
-        #Projeto
-        {
+        // #Projeto
+        // {
 
-            position: absolute;
-            bottom: 125px;
-        }
+        //     position: absolute;
+        //     bottom: 125px;
+        // }
     }
 
 

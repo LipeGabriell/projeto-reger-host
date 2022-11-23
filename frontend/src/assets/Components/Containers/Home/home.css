@@ -39,12 +39,29 @@ section {
   font-family: "Gafata", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 0px) {
+  #Projeto {
+    position: absolute;
+    bottom: 125px;
+  }
+}
+@media (min-width: 768px) {
+  #Projeto {
+    position: absolute;
+    bottom: 125px;
+  }
+}
+
 @media (min-width: 0px) {
   #homeSection {
     flex-direction: column;
   }
   #homeSection #inicioHome {
-    margin-top: 125px;
+    margin-top: 25px;
     flex-direction: column;
     width: 100%;
     text-align: center;
@@ -56,13 +73,15 @@ section {
   #homeSection #inicioHome > img {
     width: 100%;
     max-width: 450px;
+    padding-bottom: 10px;
   }
   #homeSection #inicioHome h1 {
-    margin-top: 65px;
+    margin-top: 20px;
     font-size: 34px;
     font-weight: 300;
+    padding-top: 100px;
   }
-  #homeSection #inicioHome p {
+  #homeSection #inicioHome h2 {
     font-size: 18px;
     font-weight: 100;
     color: #9E9DA2;
@@ -91,10 +110,6 @@ section {
   #homeSection #folhasDiv {
     width: 100%;
     padding: 0px 3vw;
-  }
-  #homeSection #Projeto {
-    position: absolute;
-    bottom: 125px;
   }
 }
 @media (min-width: 768px) {
@@ -133,6 +148,6 @@ section {
 }
 @media (min-width: 1200px) {
   #homeSection #inicioHome img {
-    max-width: 680px;
+    max-width: 720px;
   }
 }

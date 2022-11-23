@@ -43,66 +43,71 @@ html {
   scroll-behavior: smooth;
 }
 
+iframe {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
 @media (min-width: 0px) {
-  #projeto {
+  #Dicas {
     margin-top: 50px;
     flex-direction: column;
     align-items: center;
   }
-  #projeto #Sobre {
+  #Dicas #Sobre {
     position: absolute;
     bottom: 125px;
   }
-  #projeto #ItemsProjeto {
+  #Dicas #ItemsDicas {
     display: flex;
     flex-direction: column;
   }
-  #projeto #titleProjeto {
+  #Dicas #titleDicas {
     font-weight: 100;
     text-align: center;
     width: 100%;
     max-width: 90vw;
     margin-bottom: 20px;
   }
-  #projeto #titleProjeto > p {
+  #Dicas #titleDicas > p {
     color: #9E9DA2;
   }
-  #projeto #titleProjeto span {
+  #Dicas #titleDicas span {
     color: #75BF7A;
   }
-  #projeto #items1,
-#projeto #items2 {
+  #Dicas #items1,
+#Dicas #items2 {
     flex-direction: column;
   }
-  #projeto #item1Projeto,
-#projeto #item2Projeto,
-#projeto #item3Projeto,
-#projeto #item4Projeto {
+  #Dicas #item1Dicas,
+#Dicas #item2Dicas,
+#Dicas #item3Dicas,
+#Dicas #item4Dicas {
     margin-top: 30px;
     width: 100%;
     max-width: 90vw;
     text-align: center;
     align-self: center;
   }
-  #projeto #item1Projeto > h2,
-#projeto #item2Projeto > h2,
-#projeto #item3Projeto > h2,
-#projeto #item4Projeto > h2 {
+  #Dicas #item1Dicas > h2,
+#Dicas #item2Dicas > h2,
+#Dicas #item3Dicas > h2,
+#Dicas #item4Dicas > h2 {
     font-size: 20px;
     font-weight: 100;
   }
-  #projeto #item1Projeto > p,
-#projeto #item2Projeto > p,
-#projeto #item3Projeto > p,
-#projeto #item4Projeto > p {
+  #Dicas #item1Dicas > p,
+#Dicas #item2Dicas > p,
+#Dicas #item3Dicas > p,
+#Dicas #item4Dicas > p {
     font-size: 16px;
     font-weight: 100;
     color: #9E9DA2;
   }
-  #projeto #item4Projeto p > img {
+  #Dicas #item4Dicas p > img {
     width: 20px;
   }
-  #projeto #celularProjeto {
+  #Dicas #celularDicas {
     margin-top: 30px;
     width: -moz-fit-content;
     width: fit-content;
@@ -111,66 +116,66 @@ html {
     margin-right: auto;
     display: block;
   }
-  #projeto #celularProjeto > img {
+  #Dicas #celularDicas > img {
     width: 100%;
     max-width: 300px;
     max-height: 400px;
   }
-  #projeto #celularDesktop {
+  #Dicas #celularDesktop {
     display: none;
   }
 }
 @media (min-width: 768px) {
-  #projeto {
+  #Dicas {
     margin-top: 80px;
   }
-  #projeto > #itemsProjeto {
+  #Dicas > #itemsDicas {
     display: flex;
     flex-direction: row;
   }
-  #projeto #items1,
-#projeto #items2 {
+  #Dicas #items1,
+#Dicas #items2 {
     flex-direction: column;
     margin-top: 30px;
   }
-  #projeto #celularProjeto {
+  #Dicas #celularDicas {
     display: none;
   }
-  #projeto #celularDesktop {
+  #Dicas #celularDesktop {
     display: block;
     margin-top: 30px;
     width: -moz-fit-content;
     width: fit-content;
   }
-  #projeto #celularDesktop > img {
+  #Dicas #celularDesktop > img {
     margin: 0px 0px;
     width: 100%;
     max-width: 270px;
     max-height: auto;
   }
-  #projeto #item1Projeto,
-#projeto #item2Projeto,
-#projeto #item3Projeto,
-#projeto #item4Projeto,
-#projeto #item1Projeto {
+  #Dicas #item1Dicas,
+#Dicas #item2Dicas,
+#Dicas #item3Dicas,
+#Dicas #item4Dicas,
+#Dicas #item1Dicas {
     padding-top: 35px;
     margin: 0px 10vw;
     width: 100%;
     max-width: 20vw;
   }
-  #projeto #item1Projeto > h2,
-#projeto #item2Projeto > h2,
-#projeto #item3Projeto > h2,
-#projeto #item4Projeto > h2,
-#projeto #item1Projeto > h2 {
+  #Dicas #item1Dicas > h2,
+#Dicas #item2Dicas > h2,
+#Dicas #item3Dicas > h2,
+#Dicas #item4Dicas > h2,
+#Dicas #item1Dicas > h2 {
     font-size: 20px;
     font-weight: 100;
   }
-  #projeto #item1Projeto > p,
-#projeto #item2Projeto > p,
-#projeto #item3Projeto > p,
-#projeto #item4Projeto > p,
-#projeto #item1Projeto > p {
+  #Dicas #item1Dicas > p,
+#Dicas #item2Dicas > p,
+#Dicas #item3Dicas > p,
+#Dicas #item4Dicas > p,
+#Dicas #item1Dicas > p {
     font-size: 16px;
     font-weight: 100;
     color: #9E9DA2;

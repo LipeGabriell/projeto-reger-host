@@ -16,9 +16,6 @@ function Footer() {
     return (
         <>
             <footer id='footer' className='font' >
-                <div id='regerLogo'>
-                    <img src={RegerLogo} alt="Logo Projeto Reger" onClick={subirTela} />
-                </div>
 
                 <div id='redesFooter'>
                     <h3>Redes sociais:</h3>

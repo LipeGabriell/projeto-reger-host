@@ -17,7 +17,9 @@ function Sobre() {
     AOS.init();
     return (
         <>
+            <div id='Sobre'></div>
             <section id='sobre' className='flex font column'>
+
                 <div id='txtSobre'>
                     <h1><span>SOBRE</span> NÓS</h1>
                     <p>O Centro Universitário Sagrado Coração tem uma preocupação constante com os resíduos produzidos em todas as suas atividades. Essa preocupação vem de uma necessidade não só da instituição, mas um cuidado com os impactos causados no meio ambiente e com os efeitos a curto e longo prazo.</p>
@@ -33,39 +35,15 @@ function Sobre() {
                     <Carousel showStatus={false} showArrows={true} autoPlay={true} infiniteLoop={true} transitionTime={400} stopOnHover={true} >
                         <div>
                             <img src={Lixo1Mobile} />
-                            <p className="legend font">Imagem 1</p>
+                            <p className="legend font">Pó de café e coador, resíduos de frutas (cascas, talos e restos), saquinhos de chá, resíduos alimentares (sem tempero), resíduos de jardinagem.</p>
                         </div>
                         <div>
                             <img src={Lixo2Mobile} />
-                            <p className="legend font">Imagem 2</p>
+                            <p className="legend font">Isopor, embalagens de sucos e salgadinhos, papel plástico, vidro, metal.</p>
                         </div>
                         <div>
                             <img src={Lixo3Mobile} />
-                            <p className="legend font">imagem 3</p>
-                        </div>
-                        <div>
-                            <img src={Lixo1Mobile} />
-                            <p className="legend font">Imagem 1</p>
-                        </div>
-                        <div>
-                            <img src={Lixo2Mobile} />
-                            {/* <p className="legend font">Imagem 2</p> */}
-                        </div>
-                        <div>
-                            <img src={Lixo3Mobile} />
-                            {/* <p className="legend font">imagem 3</p> */}
-                        </div>
-                        <div>
-                            <img src={Lixo1Mobile} />
-                            <p className="legend font">Imagem 1</p>
-                        </div>
-                        <div>
-                            <img src={Lixo2Mobile} />
-                            {/* <p className="legend font">Imagem 2</p> */}
-                        </div>
-                        <div>
-                            <img src={Lixo3Mobile} />
-                            {/* <p className="legend font">imagem 3</p> */}
+                            <p className="legend font">Alimentos temperados, produtos colantes, guardanapos e lenços usados, embalagens (com resíduos não removíveis), ossos e espinhos, chiclete.</p>
                         </div>
                     </Carousel>
                 </div>
