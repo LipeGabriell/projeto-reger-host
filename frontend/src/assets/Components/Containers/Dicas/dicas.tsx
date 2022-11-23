@@ -13,7 +13,7 @@ function Dicas() {
             <section id='Dicas' className='flex font'>
 
                 <div id='titleDicas'>
-                    <h1>Dicas</h1>
+                    <h1>DICAS</h1>
                 </div>
 
                 <div id='itemsDicas'>
@@ -28,16 +28,16 @@ function Dicas() {
 
                         <div id='item1Dicas' data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">{/*(1)*/}
                             <img src={Num1} alt="" />
-                            <h2>dica1</h2>
-                            <p>---------</p>
+                            <h2>REDUZIR</h2>
+                            <p>consumir menos produtos e preferir aqueles que ofereçam menor potencial de geração de resíduos e tenham maior durabilidade.</p>
                         </div>
 
 
 
                         <div id='item2Dicas' data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">{/*(2)*/}
                             <img src={Num2} alt="" />
-                            <h2>dica3</h2>
-                            <p>---------</p>
+                            <h2>RECICLAR</h2>
+                            <p>Envolve a transformação dos materiais para a produção de matéria-prima para outros produtos por meio de processos industriais ou artesanais. É fabricar um produto a partir de um material usado.</p>
                         </div>
 
                     </div>
@@ -46,14 +46,14 @@ function Dicas() {
 
                         <div id='item3Dicas' data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">{/*(3)*/}
                             <img src={Num3} alt="" />
-                            <h2>DICA2</h2>
-                            <p>---------</p>
+                            <h2>REUTILIZAR</h2>
+                            <p>Usar novamente as embalagens.</p>
                         </div>
 
                         <div id='item4Dicas' data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">{/*(4)*/}
                             <img src={Num4} alt="" />
-                            <h2>dica4</h2>
-                            <p>------</p>
+                            <h2>REPENSAR</h2>
+                            <p>Sobre os seus atos de consumo e os impactos que eles provocam sobre você mesmo, a economia, as relações sociais e a natureza.</p>
                         </div>
 
                     </div>
