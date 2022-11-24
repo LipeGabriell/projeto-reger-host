@@ -1,4 +1,7 @@
 import './projeto.css'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Celular from '../../../images/celular.png'
 import Num1 from '../../../images/num1.svg'
 import Num2 from '../../../images/num2.svg'
@@ -9,8 +12,10 @@ import Localizacao from '../../../images/location.svg'
 
 
 function Projeto() {
+    AOS.init({ disable: 'mobile', });
     return (
         <>
+            <div id='Projeto'></div>
             <section id='projeto' className='flex font'>
 
                 <div id='titleProjeto'>

@@ -3,6 +3,7 @@ import Trees from '../../../images/Trees.png'
 import Folhas from '../../../images/FolhasBar.png'
 
 function Home() {
+
     return (
         <>
             <section id='homeSection' className="flex font">

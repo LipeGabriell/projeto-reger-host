@@ -44,14 +44,21 @@ html {
 }
 
 @media (min-width: 0px) {
+  #Projeto {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 768px) {
+  #Projeto {
+    margin-bottom: -50px;
+  }
+}
+
+@media (min-width: 0px) {
   #projeto {
     margin-top: 50px;
     flex-direction: column;
     align-items: center;
-  }
-  #projeto #Sobre {
-    position: absolute;
-    bottom: 125px;
   }
   #projeto #ItemsProjeto {
     display: flex;
@@ -71,7 +78,7 @@ html {
     color: #75BF7A;
   }
   #projeto #items1,
-  #projeto #items2 {
+#projeto #items2 {
     flex-direction: column;
   }
   #projeto #item1Projeto,
@@ -174,5 +181,8 @@ html {
     font-size: 16px;
     font-weight: 100;
     color: #9E9DA2;
+  }
+  #projeto #item4Projeto {
+    padding-top: 53px;
   }
 }

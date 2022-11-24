@@ -1,5 +1,21 @@
 @import '../../../../index.scss';
 
+#Projeto
+{
+    @include all
+    {
+        margin-bottom: 100px;
+    }
+
+    @include md
+    {
+
+        margin-bottom: -50px;
+    }
+
+
+}
+
 #projeto
 {
 
@@ -8,13 +24,6 @@
         margin-top: 50px;
         flex-direction: column;
         align-items: center;
-
-        #Sobre
-        {
-
-            position: absolute;
-            bottom: 125px;
-        }
 
         #ItemsProjeto
         {
@@ -171,6 +180,11 @@
                 font-weight: 100;
                 color: #9E9DA2;
             }
+        }
+
+        #item4Projeto
+        {
+            padding-top: 53px;
         }
     }
 }

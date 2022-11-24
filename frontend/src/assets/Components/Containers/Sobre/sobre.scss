@@ -2,16 +2,17 @@
 
 #Sobre
 {
+    height: 0px;
+
     @include all
     {
-        position: relative;
+        margin-bottom: -50px;
     }
 
     @include md
     {
 
-        position: absolute;
-        bottom: -460px;
+        margin-bottom: 155px;
     }
 }
 

@@ -1,5 +1,7 @@
 import './dicas.css'
-import Celular from '../../../images/celular.png'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Num1 from '../../../images/num1.svg'
 import Num2 from '../../../images/num2.svg'
 import Num3 from '../../../images/num3.svg'
@@ -8,21 +10,18 @@ import Num4 from '../../../images/num4.svg'
 
 
 function Dicas() {
+    AOS.init({ disable: 'mobile', });
+
     return (
         <>
-            <section id='Dicas' className='flex font'>
+            <div id='Dicas'></div>
+            <section id='dicas' className='flex font'>
 
                 <div id='titleDicas'>
                     <h1>DICAS</h1>
                 </div>
 
                 <div id='itemsDicas'>
-
-                    <div id='celularDicas'>{/*(celular)*/}
-
-                        <img src={Celular} alt="" />
-
-                    </div>
 
                     <div id='items1' className='flex'>
 
