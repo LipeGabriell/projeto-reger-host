@@ -26,6 +26,13 @@
             }
         }
 
+        h3
+        {
+            align-self: center;
+            text-align: center;
+            padding-bottom: 10px;
+            font-weight: 100;
+        }
 
         #dicasDireita
         {
@@ -70,7 +77,8 @@
             text-align: center;
             margin-bottom: -40px;
             font-size: clamp(15px, 4vw, 100px);
-            color: #75BF7A;
+            color: black;
+            font-weight: 100;
         }
     }
 

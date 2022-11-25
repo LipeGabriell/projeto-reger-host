@@ -43,6 +43,20 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 800px) {
+  [data-aos] {
+    pointer-events: auto !important;
+  }
+  html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important;
+  }
+  html:not(.no-js) [data-aos=fade-left] {
+    transform: none !important;
+  }
+  html:not(.no-js) [data-aos=fade-right] {
+    transform: none !important;
+  }
+}
 #Sobre {
   height: 0px;
 }
@@ -70,18 +84,31 @@ html {
   #sobre #carrossel .carousel {
     border-radius: 10px;
   }
+  #sobre #txtSobre {
+    display: flex;
+    flex-direction: column;
+  }
   #sobre #txtSobre span {
     color: #75BF7A;
     font-weight: 100;
+    font-size: clamp(40px, 6vw, 100px);
+  }
+  #sobre #txtSobre span:nth-child(2) {
+    color: black;
   }
   #sobre #txtSobre h1 {
     font-weight: 900;
     text-align: center;
+    font-size: clamp(40px, 6vw, 100px);
   }
   #sobre #txtSobre p {
+    align-self: center;
     color: #9E9DA2;
     text-align: center;
     padding: 0px 3vw;
+    max-width: 50vw;
+    padding-top: 10px;
+    font-size: clamp(15px, 4vw, 17px);
   }
   #sobre #imgSobre {
     display: flex;

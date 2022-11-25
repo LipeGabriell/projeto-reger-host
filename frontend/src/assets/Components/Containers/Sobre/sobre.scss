@@ -40,23 +40,37 @@
 
         #txtSobre
         {
+            display: flex;
+            flex-direction: column;
+
             span
             {
                 color: #75BF7A;
                 font-weight: 100;
+                font-size: clamp(40px, 6vw, 100px);
+
+                &:nth-child(2)
+                {
+                    color: black
+                }
             }
 
             h1
             {
                 font-weight: 900;
                 text-align: center;
+                font-size: clamp(40px, 6vw, 100px);
             }
 
             p
             {
+                align-self: center;
                 color: #9E9DA2;
                 text-align: center;
                 padding: 0px 3vw;
+                max-width: 50vw;
+                padding-top: 10px;
+                font-size: clamp(15px, 4vw, 17px);
             }
         }
 
