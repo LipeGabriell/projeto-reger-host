@@ -10,8 +10,14 @@ import Num4 from '../../../images/num4.svg'
 
 
 function Dicas() {
-    AOS.init({ disable: 'mobile', });
-
+    window.addEventListener('load', () => {
+        AOS.init({
+            disable: function () {
+                var maxWidth = 800;
+                return window.innerWidth < maxWidth;
+            }
+        });
+    });
     return (
         <>
             <div id='Dicas'></div>

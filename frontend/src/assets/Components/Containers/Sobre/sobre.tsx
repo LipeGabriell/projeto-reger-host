@@ -14,7 +14,14 @@ import Lixo3Mobile from '../../../images/lixo3Mobile.png'
 
 
 function Sobre() {
-    AOS.init({ disable: 'mobile', });
+    window.addEventListener('load', () => {
+        AOS.init({
+            disable: function () {
+                var maxWidth = 800;
+                return window.innerWidth < maxWidth;
+            }
+        });
+    });
     return (
         <>
             <div id='Sobre'></div>
