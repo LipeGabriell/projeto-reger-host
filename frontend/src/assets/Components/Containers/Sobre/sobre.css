@@ -73,6 +73,7 @@ html {
 
 @media (min-width: 0px) {
   #sobre {
+    font-size: clamp(16px, 2vw, 20px) !important;
     margin-top: 120px;
   }
   #sobre #carrossel {
@@ -108,7 +109,6 @@ html {
     padding: 0px 3vw;
     max-width: 50vw;
     padding-top: 10px;
-    font-size: clamp(15px, 4vw, 17px);
   }
   #sobre #imgSobre {
     display: flex;
