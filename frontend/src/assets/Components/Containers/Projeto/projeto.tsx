@@ -12,14 +12,11 @@ import Localizacao from '../../../images/location.svg'
 
 
 function Projeto() {
-    window.addEventListener('load', () => {
-        AOS.init({
-            disable: function () {
-                var maxWidth = 800;
-                return window.innerWidth < maxWidth;
-            }
-        });
-    });
+    AOS.init({
+        disable: window.innerWidth < 768
+    })
+
+
     return (
         <>
             <div id='Projeto'></div>
